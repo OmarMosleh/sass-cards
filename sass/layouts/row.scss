@@ -1,0 +1,18 @@
+.row{
+    margin: 50px 0px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+
+    .column{
+       width:100%;
+    
+       .image{
+        width:100%;
+        height: 250px;
+        object-fit: cover;
+       }
+    }
+
+}
